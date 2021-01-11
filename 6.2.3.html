@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冰雪大冒险</title>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <img src="./img/46460a234d733777c470dbdd6a5bac61.gif" alt="">
+    <div class="font-box">
+        <p>评分: <span>8.4</span></p>
+        <p>别名:<span>冰雪大冒险/魔雪奇缘</span></p>
+        <p>导演：<span class="blue">伊迪娜.门则尔</span></p>
+        <p>导演：<span  class="blue">克里斯.巴克lennifer Lee</span></p>
+        <p>地区：<span>美国</span></p>
+        <p>简介：<span>《Frozen》讲述一个诅咒令王国被冰天雪地永久覆盖，乐观无畏的安娜（由克里斯丁。贝尔配音）和一个大胆的...</span></p>
+        <a href="#">more</a>
+    </div>
+    <script>
+        $(function () {
+
+            $('.font-box,img').css({
+                "float": "left"
+                , "margin": "10px"
+            })
+            $('p').css({
+                "color": "red"
+            })
+            $('p span').css({
+                "color":"#000"
+            })
+            $('span:first').css({
+                "color": "yellow"
+            })
+            $('.blue').css({
+                "color":"blue"
+            })
+
+        })
+    </script>
+</body>
+
+</html>
